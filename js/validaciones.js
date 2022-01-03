@@ -40,6 +40,16 @@ const mensajesDeError = {
     valueMissing: "Este campo no puede estar vacío",
     customError: "Debes tener almenos 18 años de edad"
 
+  },
+  numero: {
+    valueMissing: "Este campo no puede estar vacío",
+    patternMismatch: "El número debe inicializar con un +569, seguido de 8 digitos"
+
+  },
+  direccion: {
+    valueMissing: "Este campo no puede estar vacío",
+    patternMismatch: "El formato ingresado no es el correcto"
+
   }
 }
 
